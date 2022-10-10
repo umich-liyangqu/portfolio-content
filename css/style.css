@@ -1,1 +1,31 @@
+header{
+    
+}
+nav{
 
+}
+main{
+
+}
+footer{
+
+}
+a {
+    text-decoration: none;
+}
+
+.Current_Link {
+    text-decoration: underline;
+}
+
+img:hover {
+    background-color: #ff2800;
+  }
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    max-width: 720px;
+}
