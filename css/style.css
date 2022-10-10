@@ -11,13 +11,18 @@ footer{
 
 }
 
+p {
+    font-family: 'Helvetica', 'Arial', sans-serif;
+    font-size: 12pt;
+}
+
 a {
     text-decoration: none;
 }
 
 .Current_Link {
     text-decoration: underline;
-    text-color: #ff2800;
+    color: #ff2800;
 }
 
 img:hover {
