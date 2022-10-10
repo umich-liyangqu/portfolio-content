@@ -10,19 +10,21 @@ main{
 footer{
 
 }
+
 a {
     text-decoration: none;
 }
 
 .Current_Link {
     text-decoration: underline;
+    text-color: #ff2800;
 }
 
 img:hover {
     background-color: #ff2800;
   }
 
-img {
+main > img {
     display: block;
     margin-left: auto;
     margin-right: auto;
