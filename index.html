@@ -9,11 +9,21 @@
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
 	<script src="https://kit.fontawesome.com/534153b056.js" crossorigin="anonymous"></script>
+	<!-- Google tag (gtag.js) -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-HXQWQFJC3T"></script>
+	<script>
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+
+	gtag('config', 'G-HXQWQFJC3T');
+	</script>
 	<title> Ferrari's 2022 Campaign </title>
 </head>
 
 <body>
 	<header>
+		<a class="skip-main" href='#main-body'>Skip to content</a>
 		<nav>
 			<ul>
 				<li><a class="Current_Link" href="index.html">Homepage <i class="fa-solid fa-flag-checkered"></i></a></li>
@@ -24,29 +34,54 @@
 		</nav>
 	</header>
 
-	<main>
-		<h1>Ferrari's 2022 Campaign</h1>
-		<p>
-			Ferrari is the oldest surviving and most successful Formula One team, having competed in every world championship since the 1950 Formula One season. 
-			However, ever since the end of reign of Michael Schumacher and the surprising win by Kimi Räikkönen, the team has been in a limbo states. 
-			Since 2007, the team had not claimed any championship. Plagued with car competitiveness, driver issue, and internal politic, The team always lack the final push to the top step of the podium. 
-		</p>
-		<p>
-			This year marks a difference. 
-			Compared to the winless 2020 and 2021 cars, the F1-75 was notably more competitive, as the team took pole and victory at the first race in Bahrain. 
-			This feat was repeated in Australia, despite the team's reluctance to add updates to the car. 
-			Compared to its main rival, the Red Bull RB18, the F1-75 often displayed superior cornering speeds, but the RB18 was better on the straights.
-			The drivers lineup are young but with great racing experience. Charles Leclerc has display his talents as a racing driver in top quality.
-			Carlos Sainzs Jr. is also highly regarded as one of the most consistent young driver in the business. Leclerc took four consecutive poles from Miami to Baku, but the team failed to convert any of these poles to wins through a combination of unreliability and poor strategy. At the British Grand Prix, Sainz took pole and won his first Formula One race. At the following race in Austria, the F1-75 took another victory with Leclerc, who achieved his 5th Grand Prix victory.
-		</p>
-		<p>
-			What can possibly go wrong?
-		</p>
-		<img class="slidein_img" src = "image/Ferrari_2022.jpg" alt ="Ferrari 2022 offical lineup and drivers">
+	<main id="main-body">
+		<div id="page-title">
+			<h1>Ferrari's 2022 Campaign</h1>
+		</div>
+		<div id="text-content">
+			<p>
+				Ferrari is the oldest surviving and most successful Formula One team, having competed in every world championship since the 1950 Formula One season. 
+				However, ever since the end of reign of Michael Schumacher and the surprising win by Kimi Räikkönen, the team has been in a limbo states. 
+				Since 2007, the team had not claimed any championship. Plagued with car competitiveness, driver issue, and internal politic, The team always lack the final push to the top step of the podium. 
+			</p>
+			<p>
+				This year marks a difference. 
+				Compared to the winless 2020 and 2021 cars, the F1-75 was notably more competitive, as the team took pole and victory at the first race in Bahrain. 
+				This feat was repeated in Australia, despite the team's reluctance to add updates to the car. 
+				Compared to its main rival, the Red Bull RB18, the F1-75 often displayed superior cornering speeds, but the RB18 was better on the straights.
+				The drivers lineup are young but with great racing experience. Charles Leclerc has display his talents as a racing driver in top quality.
+				Carlos Sainzs Jr. is also highly regarded as one of the most consistent young driver in the business. Leclerc took four consecutive poles from Miami to Baku, but the team failed to convert any of these poles to wins through a combination of unreliability and poor strategy. At the British Grand Prix, Sainz took pole and won his first Formula One race. At the following race in Austria, the F1-75 took another victory with Leclerc, who achieved his 5th Grand Prix victory.
+			</p>
+			<p>
+				What can possibly go wrong?
+			</p>
+		</div>
+		<div id="image-content">
+			<img class="slidein_img" src = "image/Ferrari_2022.jpg" alt ="Ferrari 2022 offical lineup and drivers">
+			
+		</div>
+		
 	</main>
 
 	<footer>
-    
+		<!-- modify this form HTML and place wherever you want your form -->
+		<form
+		action="https://formspree.io/f/meqdygjw"
+		method="POST"
+		>
+		<label>
+			Your email:
+			<input type="email" name="email">
+		</label>
+		<label>
+			Your message:
+			<textarea name="message"></textarea>
+		</label>
+		<!-- your other form fields go here -->
+			<button type="submit">Send</button>
+		</form>
+		<p>University of Michigan, School of Information <br/>
+			&copy; Liyang Qu, 2022</p>
 	</footer>
 </body>
 </html>
